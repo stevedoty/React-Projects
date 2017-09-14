@@ -2,9 +2,6 @@ import React from 'react';
 import Grid from 'material-ui/Grid';
 import { Player } from 'video-react';
 
-import Waterfall from '../Videos/Waterfall.mp4';
-import WaterfallPlaceholder from '../Images/WaterfallPlaceholder.png';
-
 import ListItem from './ListItem';
 import Extras from './Extras';
 import Stack from './Stack';
