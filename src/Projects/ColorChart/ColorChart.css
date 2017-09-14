@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.color-chart-container{
+  height: 100vh;
+  width: 100%;
+  background: white;
+}
+.color-chart__background{
+  width: 100%;
+  height: 100%;
+}
+#color-chart{
+  height: 254px;
+  width: 254px;
+  float: left;
+  background-color: rgba(125,125,125,.5);
+  border: 1px solid black;
+  display: table;
+}
+#color-chart-text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#color-chart:hover{
+  cursor: default;
+}
+#RGBA{
+  height: 254px;
+  width: 125px;
+  text-align: left;
+  padding-left: 15px;
+  float: left;
+  line-height: 2em;
+}
+h5{
+  font-size: 1rem;
+  font-weight: 300;
+}
+p{
+  font-size: .75rem;
+  font-weight: 300;
+}

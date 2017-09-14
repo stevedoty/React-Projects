@@ -1,0 +1,121 @@
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .todo-app-container{
+    background: white;
+  }
+
+  #header-container{
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background:#006;
+    box-shadow: 0 0 15px black;
+  }
+
+  #input::selection{
+    background:white;
+    color:#006;
+  }
+
+  #header{
+    height: 42px;
+    width: 93%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 0;
+    border-radius: 20px;
+    text-indent: 20px;
+    padding-right: 50px;
+    color: #fff;
+    background:rgba(255, 255, 255,.1);
+  }
+
+  #input::placeholder{
+    color: #fff;
+  }
+
+  #add{
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 42px;
+    width: 42px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  #add-icon{
+    color: #006;
+  }
+
+  #list{
+    width: 100%;
+    background: white;
+  }
+
+
+  .list-item{
+    width: 95%;
+    height: 42px;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: lighter;
+    padding-left: 20px;
+    background: #006;
+    color: white;
+    border-radius: 1px;
+    display: table;
+    box-shadow: 1px 1px 5px grey;
+  }
+
+  #check, #delete{
+    float: right;
+    height: 42px;
+    width: 42px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+
+  #delete-icon, #done-icon{
+    color: white;
+    cursor:pointer;
+  }
+
+  h4{
+    width: 95%;
+    margin: auto;
+    // margin-left: 10%;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #006;
+  }
+
+  p{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  p::selection{
+    background:white;
+    color: #006;
+  }
